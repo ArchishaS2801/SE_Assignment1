@@ -37,4 +37,12 @@ The commands we have executed :-
   
 # Screen shots of all commands we've tried :
   
-  ![diagram1](diagram1.png)
+  ![diagram1](https://user-images.githubusercontent.com/56764127/129596053-65492ab2-d697-4518-adf9-5d3cac88b550.png)
+
+  ![diagram2](https://user-images.githubusercontent.com/56764127/129596112-739e6345-2288-4281-b2f7-825dbf56e63c.png)
+  
+ ![Screenshot (543)](https://user-images.githubusercontent.com/56764127/129596654-be25f6d0-b15c-4f97-9649-78ee41358021.png)
+
+  ![Screenshot (540)](https://user-images.githubusercontent.com/56764127/129596447-e72e5b9e-0dbd-44af-a273-28cd3c8ac118.png)
+
+  
