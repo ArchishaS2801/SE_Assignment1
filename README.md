@@ -1,7 +1,7 @@
 <p align="center">
-  <p style="text-align: center">
+  <a href="https://github.com/ArchishaS2801/SE_Assignment1">
     <img src="images/git.png" alt="Git Logo" width="100" height="100">
-  </p>
+  </a>
 
   <h3 align="center">GIT</h3>
 
