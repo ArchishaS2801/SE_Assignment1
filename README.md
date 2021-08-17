@@ -1,48 +1,61 @@
-# SE Assignment 1 : Learning git
+<p align="center">
+  <a href="https://github.com/ArchishaS2801/SE_Assignment1">
+    <img src="images/git.png" alt="Git Logo" width="100" height="100">
+  </a>
 
-What is git?
+  <h3 align="center">GIT</h3>
+
+  <p align="center">
+    Submission for the GIT Assignment in Software Engineering Mini Project Stage 1
+    <br />
+    <a href="https://git-scm.com/doc"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/ArchishaS2801/SE_Assignment1/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ArchishaS2801/SE_Assignment1/issues">Request Feature</a>
+  </p>
+</p>
+
+## What is git?
 
 Git is the most commonly used version control system. Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source.
 
+<br>
+<hr style="width: 600px; text-align:center">
+<br>
+
+## Commands
+
 The commands we have executed :-
 
----> git init // to initialize a local git repo
+<p align="center">
 
----> git add <file> // to add a file(or files) 
-  
----> git status // Checks status of working tree
-  
----> git commit -m "message" // to commit changes in index
-  
----> git push // to push to remot repo
-  
----> git pull // pull latest from remote repo
-  
----> git clone // to clone a repo into a directory
-  
----> git add . //add all files in the working directory
-  
----> git branch new_branch // to create a new branch
-  
----> git checkout new_branch //to checkout to new_branch
-  
----> git fetch origin //downloads commits, files, and refs from a remote repository into your local repo
-  
----> git log //to read the history of everything happening in the repo
-  
----> git branch -d branch_to_be_deleted //to delete the local branch
-  
----> git push origin --delete branch_to_be_deleted //to delete remote branch
-  
-  
-# Screen shots of all commands we've tried :
-  
-  ![diagram1](https://user-images.githubusercontent.com/56764127/129596053-65492ab2-d697-4518-adf9-5d3cac88b550.png)
+| **Command**                       | **Description**                                                                                  |
+| --------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `git init`                        | Initialises a git repository in given folder                                                     |
+| `git add <file>`                  | Adds a file to the staging area.                                                                 |
+| `git status`                      | Gives information about status of the repository like tracked/ untracked files and HEAD position |
+| `git commit -m "message"`         | Appends all changes in the staging area to the current branch HEAD                               |
+| `git push`                        | Uploads all committed changes to remote Git repository                                           |
+| `git pull`                        | Fetches and merges code changes from remote Git repository to local repository                   |
+| `git clone`                       | Clones a remote repository locally and sets up tracking information                              |
+| `git add .`                       | Adds all untracked files to staging area                                                         |
+| `git branch new_branch`           | Creates a new branch from current HEAD                                                           |
+| `git checkout new_branch`         | Changes HEAD to the specified branch thereby switching branches                                  |
+| `git fetch origin`                | Fetches changes from remote Git repository, in this case the origin                              |
+| `git log`                         | Shows details about commit tree, author, time and commit message                                 |
+| `git branch -d branch`            | Deletes a branch                                                                                 |
+| `git push origin --delete branch` | Deletes branch from remote Git repository                                                        |
 
-  ![diagram2](https://user-images.githubusercontent.com/56764127/129596112-739e6345-2288-4281-b2f7-825dbf56e63c.png)
-  
- ![Screenshot (543)](https://user-images.githubusercontent.com/56764127/129596654-be25f6d0-b15c-4f97-9649-78ee41358021.png)
+</p>
 
-  ![Screenshot (540)](https://user-images.githubusercontent.com/56764127/129596447-e72e5b9e-0dbd-44af-a273-28cd3c8ac118.png)
+<br>
+<hr style="width: 600px; text-align:center">
+<br>
 
-  
+## Team Members
+
+- <a href="https://github.com/ArchishaS2801">Archisha Shukla (111903140)</a>
+- <a href="https://github.com/pallavi-buwa">Pallavi Buwa (111903147)</a>
+- <a href="https://github.com/sameerkavthekar">Sameer Kavthekar (111903153)</a>
