@@ -1,6 +1,6 @@
 <?php
 
-//require 'includes/common.php';
+require 'includes/common.php';
 $email= mysqli_real_escape_string($con,$_POST['email']);
 $pass=mysqli_real_escape_string($con,$_POST['password']);
 
@@ -29,11 +29,11 @@ if($rows==0)
     }
     else
     {
-    //$_SESSION['email']=$email;
-    //$_SESSION['u']=$values['name'].$values['id'];
+    $_SESSION['email']=$email;
+    $_SESSION['u']=$values['name'].$values['id'];
     
     
-    header('location: dashboard.php');
+    header('location: dashboard.html');
     }
 }
 ?>
