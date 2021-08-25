@@ -4,7 +4,7 @@ require 'includes/common.php';
 
 $passwd=mysqli_real_escape_string($con,$_POST['psw']);
 
-//$password= password_hash($passwd, PASSWORD_DEFAULT);
+$password= password_hash($passwd, PASSWORD_DEFAULT);
 
 $email=mysqli_real_escape_string($con,$_POST['email']);
 
@@ -25,26 +25,26 @@ $roww= mysqli_fetch_array($search_result);
 
 if($rows>0)
 {
-        header('location: register.php?e_error=this email is already registered');
+        header('location: Page2.html?e_error=this email is already registered');
     
 }
  else 
  {
      if(!ctype_alnum($name))
      {
-         header('location: register.php?n_error=incorrect format');
+         header('location: Page2.html?n_error=incorrect format');
      }
      else if (!ctype_alnum($address)) 
      {
-         header('location: register.php?a_error=incorrect format');
+         header('location: Page2.html?a_error=incorrect format');
      }
      else if(!is_numeric($contact))
      {
-         header('location: register.php?c_error=incorrect format');
+         header('location: Page2.html?c_error=incorrect format');
      }
      else if(!filter_var($email, FILTER_VALIDATE_EMAIL)) 
     {
-    header('location: register.php?email_error=enter a valid email'); 
+    header('location: Page2.html?email_error=enter a valid email'); 
     }
      
      else
@@ -56,17 +56,11 @@ if($rows>0)
       $result= mysqli_query($con, $fetch_id);
       $val= mysqli_fetch_array($result);
       
-      
-      $unique=$name.$val['id'];
-      $table_creation='CREATE TABLE '.$unique.' (pid INT(11)AUTO_INCREMENT PRIMARY KEY,description VARCHAR(225),password VARCHAR(225))';
-      $tc_query= mysqli_query($con, $table_creation) or die(mysqli_error($con));
-              
-     $_SESSION['u']=$unique;
      $_SESSION['email']=$email;
      
      $_SESSION['register']='success';
      
-     header('location:.dashboard.html');       
+     header('location: dashboard.html');       
      }    
  }
     

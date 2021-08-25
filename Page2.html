@@ -21,6 +21,12 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="#" style="color: azure;">SE Mini Project</a>
+        <div class="collapse navbar-collapse" id="myNavbar">    
+                   <ul class="nav navbar-nav navbar-right"> 
+                       
+                       <li><a href="Page1.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>        
+                       </ul>     
+               </div> 
       </div>
 
     </div>
@@ -32,7 +38,7 @@
     <br>
     <br>
     <br>
-    <form action="/action__register_page.php" class="container" method = "POST">
+    <form action="action_register_page.php" class="container" method = "POST">
       <center>
         <h2>Sign Up</h2>
       </center>
@@ -44,8 +50,8 @@
       <label for="add"><b>Address</b></label>
       <input type="text" placeholder="Enter Address" name="add" required>
 
-      <label for="class"><b>Class</b></label>
-      <input type="number" placeholder="Enter Class" name="number" required>
+      <label for="number"><b>Number</b></label>
+      <input type="number" placeholder="Enter Number" name="number" required>
 
       <label for="email"><b>Email</b></label>
       <input type="text" placeholder="Enter Email" name="email" required>
